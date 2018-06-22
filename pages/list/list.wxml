@@ -1,0 +1,27 @@
+<!-- aboutme.wxml -->
+<view class='list'>
+    <!-- 列表模版 begin -->
+
+    <template name="lists">
+        <navigator url='/pages/detail/detail?id={{id}}' hover-class='navigator-hover'>
+            <view id='{{id}}' class='list-wei'>
+                <view class='list-wei-left'>
+                    <image src='{{img}}' />
+                </view>
+                <view class='list-wei-rgith'>
+                    <view class='list-wei-rgith-title'>{{title}}</view>
+                    <view class='list-wei-rgith-dateTime'>{{cTime}}</view>
+                </view>
+            </view>
+        </navigator>
+    </template>
+    <!-- 列表模版 end -->
+
+    <!-- 使用列表模版 begin -->
+    <view wx:for="{{newsLists}}">
+        <template is="lists" data="{{...item}}" />
+    </view>
+    <!-- 使用列表模版 end -->
+
+    <view bindtap='loadMore' data-lastid="{{lastid}}" class='list-loadmore' hidden='{{isHiddenLoad}}'>{{tishi}}</view>
+</view>

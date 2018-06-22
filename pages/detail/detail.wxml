@@ -1,0 +1,10 @@
+<!-- detail.wxml -->
+<view class='detail'>
+    <view class='detail-title'>{{info.title}}</view>
+    <view class='detail-dateTime'>{{info.cTime}}</view>
+    <view class='detail-img'>
+        <image src='{{info.img}}'/>
+    </view>
+    <view class='detail-context'>{{info.content}}</view>
+    <view class='detail-backInfo' bindtap='backInfo' hidden='{{isHidden}}'>{{backInfo}}</view>
+</view>

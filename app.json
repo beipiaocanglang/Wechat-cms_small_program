@@ -1,0 +1,59 @@
+{
+    "pages": [
+        "pages/list/list",
+        "pages/detail/detail",
+        "pages/aboutme/aboutme",
+        "pages/index/index",
+		"pages/form/form",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "backgroundColor": "#000",
+        "color": "#fff",
+        "selectedColor": "yellow",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/icon_component.png",
+                "selectedIconPath": "images/icon_component_HL.png"
+            },
+            {
+                "pagePath": "pages/list/list",
+                "text": "列表",
+                "iconPath": "images/2.png",
+                "selectedIconPath": "images/3.png"
+            },
+            {
+                "pagePath": "pages/aboutme/aboutme",
+                "text": "关于我们",
+                "iconPath": "images/icon_API.png",
+                "selectedIconPath": "images/icon_API_HL.png"
+            },
+			{
+				"pagePath": "pages/form/form",
+				"text": "意见反馈",
+				"iconPath": "images/icon_API.png",
+				"selectedIconPath": "images/icon_API_HL.png"
+			},
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "日志",
+                "iconPath": "images/4.png",
+                "selectedIconPath": "images/1.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 25000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}

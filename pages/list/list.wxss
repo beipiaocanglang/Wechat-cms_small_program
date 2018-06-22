@@ -1,0 +1,52 @@
+/*全局*/
+.list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx
+}
+
+navigator{
+    overflow: hidden
+}
+
+/*logo 和 标题*/
+.list-wei {
+    padding: 5px 0;
+    height: 20rpx;
+    position: relative;
+}
+
+.list-wei-left{
+    float: left
+}
+.list-wei-left image{
+    width: 150rpx;
+    height: 150rpx;
+    display: block;
+    background-color: #aaa;
+}
+
+.list-wei-rgith{
+    float: left;
+    width: 480rpx;
+    height: 200rpx;
+    padding: 20rpx 0 0 20rpx
+}
+.list-wei-rgith-title{
+    font-size: 18px;
+    position: absolute;
+    margin-top:-14px;
+}
+.list-wei-rgith-dateTime{
+    font-size: 16px;
+    color: #aaa;
+    position: absolute;
+    top: 60px
+}
+.list-loadmore{
+    text-align: center;
+    font-size: 14px;
+    margin: 20rpx 0 30px;
+    color: #aaa
+}

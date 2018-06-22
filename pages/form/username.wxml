@@ -1,0 +1,5 @@
+<view class="section section_gap">
+    <view class="section__title">姓名:
+        <view class='section_username' style='color:red'>{{username}}</view>
+    </view>
+</view>
